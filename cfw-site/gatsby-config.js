@@ -7,14 +7,6 @@ module.exports = {
   plugins: [
     `gatsby-plugin-react-helmet`,
     {
-      resolve: 'gatsby-plugin-google-fonts',
-      options: {
-        fonts: [
-          'material icons',
-          'roboto:300,400,500,700',
-        ],
-      },
-    {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
@@ -22,6 +14,12 @@ module.exports = {
       },
     },
     `gatsby-transformer-sharp`,
+    {
+  resolve: 'gatsby-plugin-material-ui',
+  options: {
+    pathToTheme: 'src/themes/default',
+  },
+},
     `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-plugin-manifest`,
