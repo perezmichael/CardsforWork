@@ -16,4 +16,4 @@ const SecondPage = () => (
 )
 
 
-// export default SecondPage
+export default SecondPage
