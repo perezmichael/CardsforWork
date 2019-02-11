@@ -63,7 +63,7 @@ h1 {
   margin: 0.67em 0;
 }
 mark {
-  background-color: #ff0;
+  background-color: #fff;
   color: #000;
 }
 small {
@@ -617,4 +617,179 @@ pre tt:after {
   html {
     font-size: 100%;
   }
+}
+
+/* gradientcode */
+
+.grid {
+    display: flex;
+    flex-direction: row;
+    font-size: .85rem;
+    list-style: none;
+    margin: 0 auto;
+    padding: 0
+}
+
+
+.media {
+
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    font-size: .85rem;
+    justify-content: center;
+    margin: 1.618em auto auto;
+    text-align: left
+
+}
+
+.media img {
+  width: 40%;
+}
+
+
+
+
+
+.hero1 {
+
+}
+
+.container {
+    box-sizing: content-box;
+
+    max-width: 60rem;
+    padding: 0 1em;
+    position: relative;
+}
+
+.productinfo {
+
+  padding-top: 12em;
+  padding-left: 2em;
+
+
+}
+
+.head {
+  text-align: center;
+  padding-top: 1em;
+  padding-bottom: 2em;
+}
+
+.section {
+
+}
+
+/* .container::after,.container::before {
+    clear: both;
+    content: "";
+    display: table
+} */
+
+
+
+
+/* .media {
+
+    text-align: left
+} */
+
+
+.hero1 .container {
+    z-index: 2;
+    color: white;
+    margin: 0;
+    padding: 0px 1.0875rem 1.45rem;
+
+}
+
+.hero1 .ill {
+  z-index: 3;
+}
+
+.herocon {
+padding-top: 7em;
+}
+
+
+
+.hero1 h1 .smaller {
+    display: block;
+}
+
+@media (max-width: 33em) {
+    .hero1 h1 {
+        font-size:calc(2em + 1vw);
+        margin-top: 1em
+    }
+
+    .hero1 h1 span {
+        display: block
+    }
+
+    .hero1 h1 .smaller {
+        font-size: .618em;
+        margin-top: .4rem
+    }
+}
+.hero1 .gradsvg {
+    align-items: center;
+
+    display: flex;
+    justify-content: center;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1
+}
+
+.hero1 .gradsvg svg {
+    flex: 0 0 auto;
+    height: 36em;
+    width: auto;
+}
+
+@media (max-width: 33em) {
+    .hero1 .gradsvg svg {
+        height:48em
+    }
+}
+
+@media (min-width: 50em) {
+    .hero1 .gradsvg svg {
+        height:40em;
+        margin-left: -14.354em
+    }
+}
+
+@media (min-width: 60em) {
+    .hero1 .gradsvg svg {
+        margin-left:-11.089em
+    }
+}
+
+@media (min-width: 72em) {
+    .hero1 .gradsvg svg {
+        margin-left:0
+    }
+}
+
+@media (min-width: 4096px) {
+    .hero1 .gradsvg {
+        bottom:auto;
+        top: 0
+    }
+
+    .hero1 .gradsvg svg {
+        height: auto;
+        width: 100%
+    }
+}
+
+.sec-quotes2 {
+  padding-top: 8em;
+  text-align: center;
 }
